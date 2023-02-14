@@ -40,7 +40,7 @@
 
 .wrapper .form-container .form-element-container .form-element label{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 5px;
     margin-left: 5px;
 }
@@ -53,22 +53,10 @@
     padding: 0 10px;
     outline: none;
 }
-
-.wrapper .form-container .form-element-container .form-element input[type="file"]{
-    display: none;   
+.wrapper .form-container .form-element-container .form-element input::placeholder{
+    font-weight: 100;
 }
 
-.wrapper .form-container .form-element-container .form-element .blog-image{
-    display: block;
-    max-width: 100%;
-    border: thistle;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-weight: 600;
-    padding: 10px;
-    outline: none;
-    cursor: pointer;
-}
 
 .wrapper .form-container .form-element-container .form-element textarea{
     min-width: 100%;
@@ -89,7 +77,9 @@
     outline: none;
     background-color: #1977cc;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 25px;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .wrapper .form-container .form-element button:hover{

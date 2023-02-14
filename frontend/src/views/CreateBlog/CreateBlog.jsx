@@ -81,13 +81,13 @@ export default function CreateBlog() {
           <div className="form-element-container">
             <div className="form-element">
               <label htmlFor="blog-image" className="blog-image">
-                Upload blog image
+                Blog image
               </label>
               <input
-                type="file"
+                type="text"
                 id="blog-image"
                 name="blog_image"
-                placeholder="Blog image"
+                placeholder="Blog image URL"
                 value={blogImage}
                 onChange={(e) => handleBlogImage(e)}
                 required
