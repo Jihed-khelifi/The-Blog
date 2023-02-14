@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./styles.css";
 
-export default function Header(props) {
+export default function Footer(props) {
   return (
-    <div className="footer">
-      <h1>{props.note}</h1>
-    </div>
+    <footer className="footer">
+      <p>Copyright: All rights reserved</p>
+    </footer>
   );
 }
