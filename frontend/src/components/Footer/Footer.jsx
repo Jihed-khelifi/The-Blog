@@ -4,7 +4,23 @@ import styles from "./styles.css";
 export default function Footer(props) {
   return (
     <footer className="footer">
-      <p>Copyright: All rights reserved</p>
+      <div className="icons">
+        <a href="https://www.facebook.com/chadi.ayari.1/">
+        <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/ayari_chadi/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/chadi-ayari-7a11a6157/">
+        <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/chadiayari">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <div className="designed_by">
+        <p>Designed & Built by Chadi Ayari</p>
+      </div>
     </footer>
   );
 }
